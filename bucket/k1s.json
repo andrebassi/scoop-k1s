@@ -1,0 +1,23 @@
+{
+    "version": "0.1.1",
+    "description": "Kubernetes TUI Debugger - One screen to see why your pod is broken",
+    "homepage": "https://github.com/andrebassi/k1s",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/andrebassi/k1s/releases/download/v0.1.1/k1s-windows-amd64.exe#/k1s.exe",
+            "hash": "f579977249461d8d3b349bc6f5e07765e91bae1b79a912a6bce706e7090e36a1"
+        }
+    },
+    "bin": "k1s.exe",
+    "checkver": {
+        "github": "https://github.com/andrebassi/k1s"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/andrebassi/k1s/releases/download/v$version/k1s-windows-amd64.exe#/k1s.exe"
+            }
+        }
+    }
+}
