@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/andrebassi/k1s/releases/download/v0.1.2/k1s-windows-amd64.exe#/k1s.exe",
-            "hash": "db3f9e3bbd3e20b8ea5caf2cbf63da885cb495e2c956cb83405a8bdb45f0fab0"
+            "hash": "955d52b0e19ab2df163f6bd46d5a8af5fc549de303d8149f19ef9bcaaeddacfa"
         }
     },
     "bin": "k1s.exe",
